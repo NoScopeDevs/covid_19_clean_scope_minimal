@@ -1,0 +1,46 @@
+name: clean_scope_simple_example
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+
+  # Scope Packages
+  errors:
+    git:
+      url: git://github.com/NoScopeDevs/errors
+  
+  #State Management
+  flutter_riverpod: ^0.12.4
+
+  dartz: ^0.9.2
+  freezed_annotation: ^0.12.0
+
+  dio:
+  equatable:
+  meta:
+  path:
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  build_runner: 
+  freezed:
+  json_serializable: 
+
+  #linter
+  very_good_analysis: ^1.0.4
+
+
+flutter:
+  uses-material-design: true
